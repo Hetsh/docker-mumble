@@ -37,6 +37,7 @@ if confirm_action "Test image?"; then
 	extract_var CONF_DIR "./Dockerfile" "\"\K[^\"]+"
 	docker run \
 	--rm \
+	--tty \
 	--interactive \
 	--publish 64738:64738/tcp \
 	--publish 64738:64738/udp \
