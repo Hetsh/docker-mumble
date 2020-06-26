@@ -1,4 +1,4 @@
-FROM library/alpine:20200428
+FROM library/alpine:20200626
 RUN apk add --no-cache \
     murmur=1.3.1-r0
 
