@@ -1,6 +1,6 @@
 FROM amd64/alpine:20210804
 RUN apk add --no-cache \
-        murmur=1.3.4-r4
+        murmur=1.4.230-r0
 
 # App user
 ARG APP_USER="murmur"
